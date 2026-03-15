@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+.navbar h2 {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar .en {
+    border: 1px solid rgb(137, 7, 7);
+    background-color: rgb(119, 6, 6);
+    border-radius: 20%;
+    color: red;
+}
+
+.card {
+    margin: 20px;
+    width: 1150px;
+    height: 670px;
+    border: 1px solid black;
+}
+
+iframe {
+    width: 1150px;
+    height: 670px;
+    border: 1px solid black;
+}
+
+.details {
+    background-color: #0f0f0f;
+    border: 1px solid #ff0033;
+    color: #f0f0f0;
+    height: 480px;
+    border: 1px solid rgb(83, 3, 3);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ff004c;
+}
+
+.photo {
+    width: 200px;
+    height: 670px;
+}
+
+img {
+    width: 200px;
+    height: 270px;
+    border-radius: 20px;
+    margin-right: 10px;
+    border: 1px solid red;
+}
+
+h5 {
+    color: grey;
+}
+
+span .en {
+    color: #ff004c;
+}
+
+.text {
+    color: white;
+    margin: 10px 80px;
+    border: 1px solid red;
+    padding: 5px;
+    width: 100px;
+    padding-left: 9px;
+    margin-top: 20px;
+    background-color: rgb(119, 6, 6);
+}
+
+.input {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+    caret-color: red;
+}

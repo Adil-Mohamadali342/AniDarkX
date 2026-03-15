@@ -1,0 +1,59 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.2)),
+        url("./imgs/home.jpg") no-repeat center center;
+
+    background-size: cover;
+}
+
+.welcome {
+    height: 300px;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin-top: 300px;
+    border-radius: 25px;
+
+    padding-top: 20px;
+    /* 👈 SPACE ABOVE AniDarkX */
+}
+
+.title {
+    color: red;
+    width: 170px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+.title:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    background: linear-gradient(45deg, rgb(58, 2, 2), red);
+    color: white;
+    margin-left: 60px;
+    border: none;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.para {
+    color: red;
+    margin-left: 50px;
+    font-size: larger;
+    font-weight: bold;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}

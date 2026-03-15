@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+}
+
+.navbar h2 {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.navbar .en {
+    border: 1px solid rgb(137, 7, 7);
+    background-color: rgb(119, 6, 6);
+    border-radius: 20%;
+    color: red;
+}
+
+.fb .carousel-control-next {
+    width: 8%;
+}
+
+.fb .carousel-control-prev {
+    width: 8%;
+}
+
+img {
+    border: 1px solid rgb(211, 12, 28);
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+
+.first img {
+    width: 270px;
+    height: 370px;
+}
+
+.carousel-control-prev {
+    width: 2%;
+}
+
+.carousel-control-next {
+    width: 5.5%;
+}
+
+img:hover {
+    transform: translateY(-15px) scale(1.03);
+    box-shadow: 0 0 15px red;
+}
+
+.trending {
+    width: 105px;
+    background-color: rgb(119, 6, 6);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.action {
+    width: 198px;
+    background-color: rgb(119, 6, 6);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.films {
+    width: 140px;
+    background-color: rgb(119, 6, 6);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.recent {
+    width: 85px;
+    background-color: rgb(119, 6, 6);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.login {
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(119, 6, 6);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.input {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+    caret-color: red;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.lang span {
+    color: white;
+    padding: 5px;
+}
+
+.lang span:hover {
+    background-color: rgb(147, 10, 10);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.all {
+    background-color: rgb(147, 10, 10);
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
